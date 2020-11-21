@@ -2,6 +2,7 @@ package org.locator;
 
 import java.io.IOException;
 
+import org.apache.poi.ss.usermodel.Workbook;
 import org.sample.BaseClass;
 
 public class Sample1 extends BaseClass{
@@ -13,6 +14,12 @@ public static void main(String[] args) throws IOException {
 	enterText(log.getUsername(), getDataFromExcel("Sheet1", 1, 0));
 	enterText(log.getPassword(), getDataFromExcel("Sheet1", 1, 1));
 	elementClick(log.getLoginbtn());
+	
+	  
+}
+ private void project() {
+	System.out.println("updated srini work");
+	System.out.println("work done");
 }
 private void work() {
 	System.out.println("Krishna Updated");
