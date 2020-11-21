@@ -14,4 +14,9 @@ public static void main(String[] args) throws IOException {
 	enterText(log.getPassword(), getDataFromExcel("Sheet1", 1, 1));
 	elementClick(log.getLoginbtn());
 }
+private void work() {
+	System.out.println("Krishna Updated");
+	System.out.println("Work done");
+
+}
 }
